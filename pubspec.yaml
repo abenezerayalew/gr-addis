@@ -1,0 +1,88 @@
+name: green_addis_v1
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icons
+  cupertino_icons: ^1.0.6
+  iconsax: ^0.0.8
+
+  # Utitlity Packages
+  url_launcher: ^6.2.6
+  lottie: ^3.1.0
+  intl: ^0.19.0
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+
+  # State Management
+  get: ^4.6.6
+  get_storage:
+    ^2.1.1
+
+    # Product Specific Packages
+  flutter_rating_bar: ^4.0.1
+
+  # Firebase Packages
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.19.2
+  cloud_firestore: ^4.17.0
+  firebase_storage: ^11.7.2
+
+  # Sign In Packages
+  google_sign_in: ^6.2.1
+  flutter_native_splash: ^2.4.0
+  image_picker: ^1.1.0
+  connectivity_plus: ^6.0.3
+  logger: ^2.2.0
+  carousel_slider: ^4.2.1
+
+#------------- PACKAGES END--------------#
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Linting
+  flutter_lints: ^3.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  #------------- LOCAL ASSETS --------------#
+  assets:
+    - assets/logo/
+    - assets/images/animations/on_boarding_animations/
+    - assets/images/animations/
+    - assets/icons/
+    - assets/images/products/
+    - assets/images/profile/
+    - assets/images/banners/
+  #------------- LOCAL ASSETS END --------------#
+
+  #------------- FONTS --------------#
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-MediumItalic.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 800
