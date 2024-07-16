@@ -28,7 +28,11 @@ Green addis has the following features:
 ## Screenshots
 
 ![screenshot](screenshot/screenshot1.jpg)
+
+
 ![screenshot](screenshot/screenshot2.jpg)
+
+
 ![screenshot](screenshot/screenshot3.jpg)
 
 Home screen
